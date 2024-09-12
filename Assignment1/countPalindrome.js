@@ -21,8 +21,8 @@ function countPalindromes(str) {
 }
 
 // Test cases
-console.log(countPalindromes('ababa')); // Example output: 9 (a, b, aba, bab, ababa, etc.)
-console.log(countPalindromes('racecar')); // Example output: 10 (a, c, e, r, racecar, etc.)
-console.log(countPalindromes('aabb')); // Example output: 6 (a, b, aa, bb, aba, bba)
+console.log(countPalindromes('ababa')); // Example output: 5 (a, b, aba, bab, ababa.)
+console.log(countPalindromes('racecar')); // Example output: 7 (a, c, e, r, racecar, )
+console.log(countPalindromes('aabb')); // Example output: 4 (a, b, aa, bb, aba)
 console.log(countPalindromes('a')); // Example output: 1 (a)
 console.log(countPalindromes('abc')); // Example output: 3 (a, b, c)

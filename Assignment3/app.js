@@ -13,6 +13,7 @@ fetch('http://localhost:3000/products')
 
             // Add the product details to the div
             productDiv.innerHTML = `
+            <p id="product-id"><strong>Product ID:</strong> ${product.id}</p>
         <h2>${product.name}</h2>
         <p><strong>Description:</strong> ${product.description}</p>
         <p><strong>Price:</strong> $${product.price}</p>

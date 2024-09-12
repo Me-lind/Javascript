@@ -2,6 +2,7 @@ function longestCommonPrefix(array){
     if(array.length === 0) return '';
 
     let prefix = array[0];
+    
 
     for(let i=1; i<array.length; i++){
         while(array[i].indexOf(prefix) !==0){
@@ -11,7 +12,7 @@ function longestCommonPrefix(array){
     }
     return prefix;
 }
-console.log(longestCommonPrefix(['flower', 'flow', 'flight'])); // "fl"
+console.log(longestCommonPrefix(['flower', 'flow', 'flight'])+" " +"is the longest prefix"); // "fl"
 console.log(longestCommonPrefix(['dog', 'racecar', 'car']));     // ""
 console.log(longestCommonPrefix(['interspecies', 'interstellar', 'interstate'])); // "inters"
 console.log(longestCommonPrefix(['apple', 'ape', 'april'])); // "ap"
