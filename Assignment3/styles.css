@@ -1,0 +1,28 @@
+body{
+    background-color: aliceblue;
+}
+#product-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.product {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product h2 {
+    margin: 0;
+}
+
+.product p {
+    margin: 5px 0;
+}
