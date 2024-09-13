@@ -52,7 +52,7 @@ Open index.html in the browser to see the populated product list.
 
 ![app](https://github.com/user-attachments/assets/a6c2947d-42fb-43c7-b9e2-81eb6fe2662b)
 
-## Assignment 4: Technical Test – Random Operations on Objects
+## Technical Test – Random Operations on Objects
 ### Description:
 This technical test consists of 14 questions that involve various operations on JavaScript objects, arrays, and functions. Key tasks include:
 
