@@ -21,9 +21,7 @@ fetch('http://localhost:3000/users')
         // Calculate Total Likes from all posts
         const totalLikesFromAllPosts = data.reduce((totalLikes, user) => {
             return totalLikes + user.posts.reduce((sum, post) => {
-                const validLikes = typeof post.likes === 'number' && !isNaN(post.likes) ? post.likes : 0;
-                return sum + validLikes;
-            }, 0);
+                return sum + post.likes; }, 0);
         }, 0);
 
         // Calculate Average Likes per Active User (based on popular posts)
@@ -32,7 +30,7 @@ fetch('http://localhost:3000/users')
         // Results
         console.log(`Active Users: ${activeUsers.length}`);
         console.log(`Total Popular Posts: ${popularPosts.length}`);
-        console.log(`Total Likes from All Posts: ${totalLikesFromAllPosts}`); // Corrected here
+        console.log(`Total Likes from All Posts: ${totalLikesFromAllPosts}`); 
         console.log(`Average Likes per Active User: ${averageLikes.toFixed(2)}`);
     })
     .catch(error => console.error('Error fetching data:', error));
