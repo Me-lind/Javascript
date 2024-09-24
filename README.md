@@ -88,22 +88,22 @@ package.json
 
 ## Assignment 7: Cart Management System
 ### Description:
-This assignment extends Assignment 6 by adding a cart management system to the event management app. The key tasks include:
+This assignment extends Assignment 6 by adding a cart management system to the event management app. The key tasks include:  
 
-Fetching product/event data from an API using json-server.
-Populating the event data dynamically on the webpage.
-Implementing a cart management system that allows users to add events to a cart, adjust the quantity, and view the total price.
-### Files:
-app.js: Contains the JavaScript for fetching events, displaying them on the DOM, and managing the cart (add, remove, adjust quantity).
-styles.css: Contains the styling for the event management webpage and cart.
-index.html: The main HTML file where event data is displayed and cart features are available.
-db.json: The database for serving event data through json-server.
-package.json and pnpm-lock.yaml: Generated for managing dependencies for json-server.
+Fetching product/event data from an API using json-server.  
+Populating the event data dynamically on the webpage.  
+Implementing a cart management system that allows users to add events to a cart, adjust the quantity, and view the total price.  
+### Files:  
+app.js: Contains the JavaScript for fetching events, displaying them on the DOM, and managing the cart (add, remove, adjust quantity).  
+styles.css: Contains the styling for the event management webpage and cart.  
+index.html: The main HTML file where event data is displayed and cart features are available.  
+db.json: The database for serving event data through json-server.  
+package.json and pnpm-lock.yaml: Generated for managing dependencies for json-server.  
 
-### Cart Management Features:
-Add Products: Fetches event data from the API and stores it in a global array.
-Populate Data on the DOM: Dynamically creates and injects HTML elements for each event.
-Add to Cart: Adds an event to the cart and updates the cart preview and total.
-Delete from Cart: Removes an event from the cart.
-Increase/Reduce Quantity: Allows users to adjust the quantity of items in the cart, updating the total price.
-Edit Product in Cart: Updates the quantity of a specific event in the cart.
+### Cart Management Features:  
+Add Products: Fetches event data from the API and stores it in a global array.  
+Populate Data on the DOM: Dynamically creates and injects HTML elements for each event.  
+Add to Cart: Adds an event to the cart and updates the cart preview and total.  
+Delete from Cart: Removes an event from the cart.  
+Increase/Reduce Quantity: Allows users to adjust the quantity of items in the cart, updating the total price.  
+![ass7](https://github.com/user-attachments/assets/42cb1678-e027-4707-8413-64ef6d2b5f5a)
