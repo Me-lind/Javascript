@@ -54,9 +54,7 @@ Open index.html in the browser to see the populated product list.
 
 ## Assignment4: Arrays, map, filter and reduce functions    
 ### Description:    
-
-## Technical Test – Random Operations on Objects
-### Description:
+Technical Test – Random Operations on Objects
 This technical test consists of 14 questions that involve various operations on JavaScript objects, arrays, and functions. Key tasks include:
 
 Sorting arrays of objects.
@@ -66,3 +64,46 @@ Parsing URLs and checking object properties.
 
 ### Files:
 qn1 -qn14 : Contains solutions to the 14 technical test questions on objects, arrays and other JavaScript operations.
+
+
+## Assignment 5: Object Operations
+### Description:
+This assignment covers array manipulation using higher-order functions like map(), filter(), and reduce() to handle complex data.
+### Files:
+combineArrays.js
+extractProperties.js
+filterSort.js
+mergeObjects.js
+
+## Assignment 6: Event Management Webpage
+### Description:
+This assignment involves fetching event data, displaying it on a webpage, and allowing users to filter events by location, date, and price. Users can also sort events and select favorites.
+
+### Files:
+db.json
+promises.js
+style.css
+package-lock.json
+package.json
+
+## Assignment 7: Cart Management System
+### Description:
+This assignment extends Assignment 6 by adding a cart management system to the event management app. The key tasks include:
+
+Fetching product/event data from an API using json-server.
+Populating the event data dynamically on the webpage.
+Implementing a cart management system that allows users to add events to a cart, adjust the quantity, and view the total price.
+### Files:
+app.js: Contains the JavaScript for fetching events, displaying them on the DOM, and managing the cart (add, remove, adjust quantity).
+styles.css: Contains the styling for the event management webpage and cart.
+index.html: The main HTML file where event data is displayed and cart features are available.
+db.json: The database for serving event data through json-server.
+package.json and pnpm-lock.yaml: Generated for managing dependencies for json-server.
+
+### Cart Management Features:
+Add Products: Fetches event data from the API and stores it in a global array.
+Populate Data on the DOM: Dynamically creates and injects HTML elements for each event.
+Add to Cart: Adds an event to the cart and updates the cart preview and total.
+Delete from Cart: Removes an event from the cart.
+Increase/Reduce Quantity: Allows users to adjust the quantity of items in the cart, updating the total price.
+Edit Product in Cart: Updates the quantity of a specific event in the cart.
